@@ -5,7 +5,7 @@ import { useAuth } from '../context/AuthContext';
 export default function Dashboard() {
   const [summary, setSummary] = useState(null);
   const [loading, setLoading] = useState(true);
-  const { } = useAuth();
+
 
   useEffect(() => {
     getSummary()

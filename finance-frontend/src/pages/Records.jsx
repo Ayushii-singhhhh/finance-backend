@@ -21,7 +21,8 @@ export default function Records() {
       .finally(() => setLoading(false));
   };
 
-  useEffect(() => { fetchRecords(); }, [filter]);
+  // eslint-disable-next-line
+useEffect(() => { fetchRecords(); }, [filter]);
 
   const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
 
