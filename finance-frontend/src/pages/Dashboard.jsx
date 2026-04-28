@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { getSummary } from '../services/api';
-import { useAuth } from '../context/AuthContext';
 
 export default function Dashboard() {
   const [summary, setSummary] = useState(null);
