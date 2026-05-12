@@ -6,7 +6,7 @@ A full-stack finance dashboard application with role-based access control, built
 ![Dashboard](./screenshots/dashboard.png)
 
 ## 🚀 Live Demo
-- **Frontend:** Coming soon (Vercel)
+- **Frontend:** https://finance-app-beta-eosin.vercel.app/
 - **Backend API:** https://finance-backend-sfjj.onrender.com
 
 ## 🛠️ Tech Stack
